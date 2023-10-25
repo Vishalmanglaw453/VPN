@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --fs_xsm: 14px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_lg: 20px;
+    --fs_xl: 25px;
+    --fs_xxl: 25px;
+    --fs_2xl: 25px;
+    /* color */
+    --red: #F53855;
+    --lite_black: #4F5665;
+    --grey_lite: #AFB5C0;
+    --dark_black: #0B132A;
+    --white: #FFFFFF;
+    /* background-color */
+    --bg_red: #F53855;
+    --bg_lite_red: #FFECEC;
+    --bg_smoke_white: #F8F8F8;
+    --bg_white: #FFFFFF;
+    /* font-weight */
+    --fw_300: 300;
+    --fw_400: 400;
+    --fw_500: 500;
+    --fw_600: 600;
+    --fw_700: 700;
+
+}
+
+
+/* font-size */
+.fs_xsm {
+    font-size: var(--fs_xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs_sm);
+}
+
+.fs_md {
+    font-size: var(--fs_md);
+}
+
+.fs_lg {
+    font-size: var(--fs_lg);
+}
+
+.fs_xl {
+    font-size: var(--fs_xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs_xxl);
+}
+
+.fs_2xl {
+    font-size: var(--fs_2xl);
+}
+
+/* font color */
+
+.red {
+    color: var(--red);
+}
+
+
+.lite_black {
+    color: var(--lite_black);
+}
+
+.dark_black {
+    color: var(--dark_black);
+}
+
+.white {
+    color: var(--white);
+}
+
+.grey_lite {
+    color: var(--grey_lite);
+}
+
+/* bg-color */
+.bg_red {
+    background-color: var(--bg_red);
+}
+
+.bg_lite_red {
+    background-color: var(--bg_lite_red);
+}
+
+.bg_smoke_white {
+    background-color: var(--bg_smoke_white);
+}
+
+.bg_white {
+    background-color: var(--bg_white);
+}
+
+/* font-family */
+.ff_Rubik {
+    font-family: 'Rubik';
+}
+
+/* font_weight */
+.fw_300 {
+    font-weight: var(--fw_300);
+}
+
+.fw_400 {
+    font-weight: var(--fw_400);
+}
+
+.fw_500 {
+    font-weight: var(--fw_500);
+}
+
+.fw_600 {
+    font-weight: var(--fw_600);
+}
+
+.fw_700 {
+    font-weight: var(--fw_700);
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs_xsm: 14px;
+        --fs_sm: 16px;
+        --fs_md: 18px;
+        --fs_lg: 20px;
+        --fs_xl: 25px;
+        --fs_xxl: 35px;
+        --fs_2xl: 50px;
+    }
+
+}
