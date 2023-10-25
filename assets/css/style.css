@@ -42,6 +42,7 @@
 .signbutton {
     border-radius: 50px;
     border: 1px solid #F53855;
+    background-color:white;
     width: 150px;
     height: 45px;
     flex-shrink: 0;
@@ -79,7 +80,7 @@
 }
 
 .card-3 {
-    width: 100%;
+    max-width: 330px;
     height: 760px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -93,7 +94,7 @@
 }
 
 .pt-130 {
-    padding-top: 130px;
+    padding-top: 75px;
 }
 
 .slide_section {
@@ -134,7 +135,7 @@
 }
 
 .mt-60 {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .mt-80 {
@@ -155,6 +156,9 @@
 
 .mt-150 {
     margin-top: 200px;
+}
+.mt-70{
+    margin-top: 70px;
 }
 
 .mb-80 {
@@ -250,7 +254,7 @@
 }
 
 .pt-186 {
-    padding-top: 186px;
+    padding-top: 200px;
 }
 
 input[type="checkbox"]:checked+.sm {
@@ -353,6 +357,9 @@ input[type="checkbox"]:checked+.sm {
     .card-4 {
         height: 100%;
     }
+    .mini-d-gap{
+        gap: 20px;
+    }
 }
 
 
@@ -379,10 +386,12 @@ input[type="checkbox"]:checked+.sm {
     .slider-phara-2 {
         max-width: 205px;
     }
+
 }
 
 @media (min-width:768px) {
     .slider-phara-2 {
         max-width: 422px;
     }
+  
 }
