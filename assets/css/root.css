@@ -103,25 +103,33 @@
     font-family: 'Rubik';
 }
 
-/* font_weight */
-.fw_300 {
-    font-weight: var(--fw_300);
+/* font-size */
+.fs_xsm {
+    font-size: var(--fs_xsm);
 }
 
-.fw_400 {
-    font-weight: var(--fw_400);
+.fs_sm {
+    font-size: var(--fs_sm);
 }
 
-.fw_500 {
-    font-weight: var(--fw_500);
+.fs_md {
+    font-size: var(--fs_md);
 }
 
-.fw_600 {
-    font-weight: var(--fw_600);
+.fs_lg {
+    font-size: var(--fs_lg);
 }
 
-.fw_700 {
-    font-weight: var(--fw_700);
+.fs_xl {
+    font-size: var(--fs_xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs_xxl);
+}
+
+.fs_2xl {
+    font-size: var(--fs_2xl);
 }
 
 @media (min-width:768px) {
